@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "noEmit": true,
     "module": "NodeNext",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "moduleResolution": "Node"
   }
 }

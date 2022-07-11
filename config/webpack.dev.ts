@@ -10,5 +10,6 @@ export default merge(baseConfig, {
     host: "0.0.0.0",
     port: 3001,
     compress: true,
+    historyApiFallback: { index: "/", disableDotRule: true },
   },
 });
